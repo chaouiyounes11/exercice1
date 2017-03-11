@@ -1,10 +1,10 @@
-.intro{
+.intro
+  {
   color: white;
   text-align: center;
   font-weight: bold;
   font-size: larger;
   background-color: purple;
-  text-radius: 34px;
   border: 2px outset purple;
   border-radius: 4px;
   margin-left: 420px;
@@ -12,36 +12,42 @@
   margin-top: 50px;
   margin-bottom: 20px;
   padding: 10px;
-}
+  }
+
 .intro:hover
-{
+  {
   background-color: silver;
   border: 2px inset black;
-}
-.separation
-{
-  border-top: 2px dotted purple;
+  }
 
-}
+.separation
+  {
+  border-top: 2px dotted purple;
+  }
+
 .nom
-{
+  {
   color: DarkMagenta;
-}
+  }
+
 .simplonroubaix
-{
+  {
   color: black;
   font-weight: bolder;
-}
+  }
+
 .mail
-{
-border-radius:910px;
-}
+  {
+  border-radius:910px;
+  }
+
 p, em
-{
-color: red;/* paragraph & em will be in grey */
-}
+  {
+  color: red;/* paragraph & em will be in grey */
+  }
+
 h1
-{
+  {
   color: DarkMagenta;
   font-size: xx-large;
   font-variant: small-caps;
@@ -55,81 +61,77 @@ h1
   border-radius: 6px;
   text-decoration-color: DarkMagenta;
   text-decoration-style: solid;
-}
+  }
+
 h1:hover
-{
+  {
   background-color: black;
   opacity: 0.4;
   border: 4px outset purple;
+  }
 
-}
 h2
-{
+  {
   color: green;
   text-align: center;
   border: 4px outset orange;
-  border-radius: 100px;l
-}
+  border-radius: 100px;
+  }
 
 h2:hover
-{
+  {
   background-color: DarkMagenta;
   border: 4px inset orange;
-
-}
+  }
 
 .younes
-{
+  {
   border-radius:100px;
   width: 170px;
   margin-left: 175px;
-}
+  }
 
-}
 header img
-{
+  {
   display: inline-block;
   border-radius: 100px;
   width: 450px;
   height: 900px;
-}
+  }
 
 .linkedin, .twitter
-{
+  {
   float: right;
   margin-right: 60px;
   width: 8em;
-}
+  }
+
 .git, .mail
-{
+  {
   float: left;
   margin-left: 60px;
   width: 8em;
-}
-
+  }
 
 .section
-{
+  {
   padding-left: 300px;
   padding-right: 100px;
   text-align: justify;
   margin-top: 5em;
   margin-right: 13em;
-
-}
-
-
+  }
 
 .footer
-{
+  {
   border: 3px gold outset;
   text-align: right;
   font-weight: bolder;
   margin-top: 20em;
   margin-left: 38em;
-}
+  }
 
 body
-{
+  {
   background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0HDQ0NDQ0NDQ0HBw8IDQ0NFREWFhURFRUYHSggGBolGxMVITEhMSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDisZFRkrKy0tKzcrKy0tLTcrKzcrNy0rKysrKysrKysrKzctKysrKysrKysrKysrKysrKy0rK//AABEIALEBHAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAQADBf/EABcQAQEBAQAAAAAAAAAAAAAAAAABEQL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD1VkZY0ZqsaLBVhRIUQaQpGhSA0hSNIUgNIsiyFIipIuLIuAmLi4uAONh42AGNh42A54mOmJgOeJjpYlgOdg2Olg2A52DY62BYqOdiWHYNAKNOwaA0adFQUKiIUVIUFWLGhRBoUaFAaQ5EkOQGkKRpCkRWkKRpCkBpFkWQpAHFwsXAHGw8bADGw8bAc8Sx0xLAc7BsdLBsBzsSx0sGwHOwbHSwLAc7BsdLAsVAo06NAKNOioIkgKsSFAWFEhRAoUiQ5AWQpEhxFWQpEhyA0hyJIcgNIsiyLIDSLiyLiA4uFjYA4mHjYDniY6YNgBYNjpYNijnYNjpYFgOdg2OlgUAsDqOlCwRzo06NUCjToUBqFRUWFBhQChRIUQKHBhwChQYcRShRIcBZCkSHAWRZGkKRBpFxZFwExcXFwUcTDxMALBsdLBsECwbDo0AsCx0oVRzsGulCg50adCgHQV0rnVQKNOjQCidGqLCglEChQYcA+Sg8nAKHBhRFOHAhwChwYcQWHBhwFixoUFSRcWLiA4lh4lALBp0aoFGnQogUadCqBQp0KAUK6UKDnQrpQqo50adCgNRagMUEoBQ4EOAfJwOTgHDgQ4inDgQ4BwoMKIHCgwoBQoMKClFSKgyVUoDQp0KoNGlRogUaVGgFCnQqgUKdCgFCnQqoFCnRoBUWoDQoMKAUOBCgOnJwIUB0hQIcRThwIcA4cc4cQOHHOHAOFAiwU4oauoFqVNS0Go1aNUShSoURKFKjVAoU6FAKNKhQGh0dc6qDQp0KA1Fog0KDCihQ4EKIOkOOcOAcOBCiK6Q45woDpDjnKUoOkpShKsqDpKsoSroHq6GropampqaC2ja1qWiJaNW0bQShStC1RKFW0aA0atGgNc6fQVUGjVo0BqVaKjFBWAcKDFiDpDlc4UB0hxzhSorpDlc5SlB0lOVylKUHWVZQlWUHSVdDV1A9bQ1dAtbR1NAtG1NTQW0bWtG1RrQtW0bQShVtG0EoWlQtEG0atGqDRpUaCUVqKJCgxQOFHOFEHSFHOFAdJTlc5SlB0lKVzlKVFdJSlc5SlB0lKVzlWUHTV1zlXQdNbQ1tA9bQ1tAtS0dTQW0bWtG0FtG1LUtBLRtW0bQS0LVtG1USjWqUEo1aNURFog0WCsEOLBWCnCgSrEHSUpXOFKDpKUrnKUoOkpSucqyorpKuhKugeroaugetoa2getoa2gWpo6mgWpaOpaC2ja1o2gtoWtaNqo1o2taloJUta0aDUVo1RqKoI0WIwFFZhSKMyCwmYFhxmAosRkUljMCqzArMyjIrIIjMCVGYBGqyoFSswClRgSpWZQUrMAsjCP/Z");
-}
+  }
